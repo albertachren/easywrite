@@ -1,0 +1,37 @@
+easywrite script
+
+current language support: swedish
+compability: Google Docs/utf-8
+
+instructions:
+1. format
+  a. * = unsure word
+  b. § = incomplete sentence/paragraph
+  c. newline is new paragraph
+  d. newline at end
+2. save document: "document.txt"
+3. run
+
+system description:
+1. essay is inputted, saved essay/paragraphs/senteces/words
+2. essay is analyzed
+  a. bold words are found, sentences logged
+  b. § are found, paragraph/multiple sentences logged
+  c. long sentences are logged
+  d. short sentences are logged
+  e. sentences with unnecessary words are logged?
+  f. other vocabulary analyzation
+  g. some kind of sentence length analyzation (visual?)
+  h. Fry readability and such
+4. presented to the user, user edits
+  a. order: a e c d b g?
+5. edits saved in new file
+6. repeat program until satisfaction
+7.
+
+TODO:
+console ergonomics
+editor
+language support
+compability edit and support
+genre support
